@@ -1,16 +1,24 @@
-# Sistema de Chamada Inteligente
+# README
 
-Apresentamos o **Sistema de Chamada Inteligente**, uma solução inovadora desenvolvida como parte do projeto da disciplina de Engenharia de Software 2 na Universidade Federal Fluminense. Este sistema revolucionário tem como objetivo simplificar e aprimorar a gestão da presença em salas de aula, proporcionando uma experiência mais eficiente tanto para os professores quanto para os alunos.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Equipe
+Things you may want to cover:
 
-O projeto conta com a colaboração dos seguintes alunos:
+* Ruby version
 
-- Ellen Righi
-- João Pedro Barreiro
-- João Pedro Fontinele
-- João Victor Maia
-- Vinícius Gonçalves
-- Valter Neto
+* System dependencies
 
-Agradecemos pelo interesse em nosso projeto! Para mais informações, sinta-se à vontade para entrar em contato conosco.
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
