@@ -32,8 +32,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
     t.datetime "start_time"
     t.datetime "end_time"
     t.string "student_id", limit: 11
-    t.bigint "attendances_id"
-    t.index ["attendances_id"], name: "fk_rails_261b3cbc01"
+    t.bigint "attendance_id"
+    t.index ["attendance_id"], name: "fk_rails_e40214a848"
     t.index ["student_id"], name: "fk_rails_f1607dbb2a"
   end
 
@@ -59,7 +59,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
   add_foreign_key "attendances", "courses"
   add_foreign_key "courses", "subjects"
   add_foreign_key "courses", "teachers"
-  add_foreign_key "student_attendances", "attendances", column: "attendances_id"
+  add_foreign_key "student_attendances", "attendances"
   add_foreign_key "student_attendances", "students"
   add_foreign_key "student_courses", "courses"
   add_foreign_key "student_courses", "students"
