@@ -23,7 +23,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
     t.string "code", limit: 2
     t.string "teacher_id", limit: 11
     t.integer "classroom"
-    t.bigint "subject_id"
+    t.string "subject_id", limit: 20
     t.index ["subject_id"], name: "fk_rails_57d52eb461"
     t.index ["teacher_id"], name: "fk_rails_a68eff6aff"
   end
@@ -48,7 +48,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
     t.string "name", limit: 30
   end
 
-  create_table "subjects", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "subjects", id: { type: :string, limit: 20 }, charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", limit: 50
   end
 

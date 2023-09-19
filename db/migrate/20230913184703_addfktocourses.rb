@@ -3,7 +3,7 @@ class Addfktocourses < ActiveRecord::Migration[7.0]
 
     add_column :courses, :teacher_id, :string, limit: 11
     add_column :courses, :classroom, :integer
-    add_column :courses, :subject_id, :bigint
+    add_column :courses, :subject_id, :string, limit: 20
 
   end
 end
