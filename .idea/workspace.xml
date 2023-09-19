@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b011b46-d26b-407a-adbe-de2cfd0eb477" name="Changes" comment="Adicionada versão com modelo de dados pronto">
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/attendance.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/attendance.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/classroom.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/course.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/course.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/student.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/student.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/student_attendance.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/student_attendance.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/student_course.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/student_course.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/subject.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/teacher.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/teacher.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20230919111513_create_student_attendances.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20230919111513_create_student_attendances.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20230913183622_create_subjects.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20230913183622_create_subjects.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20230913184703_addfktocourses.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20230913184703_addfktocourses.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/classroom_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +19,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -58,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/joao/Desktop/chamadainteligente/config/initializers",
+    "last_opened_file_path": "/home/joao/Desktop/chamadainteligente",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -201,7 +193,10 @@
       <workItem from="1695120097905" duration="4528000" />
       <workItem from="1695125754443" duration="1090000" />
       <workItem from="1695126900039" duration="88000" />
-      <workItem from="1695127001456" duration="2796000" />
+      <workItem from="1695127001456" duration="3471000" />
+      <workItem from="1695130731342" duration="419000" />
+      <workItem from="1695133488439" duration="1526000" />
+      <workItem from="1695135060743" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada versão com modelo de dados pronto">
       <created>1695123692011</created>
@@ -221,6 +216,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adicionada versão com modelo de dados pronto" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chamadainteligente@chamadainteligente.rcov" NAME="chamadainteligente Coverage Results" MODIFIED="1695130042610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chamadainteligente" />
+    <SUITE FILE_PATH="coverage/chamadainteligente@chamadainteligente.rcov" NAME="chamadainteligente Coverage Results" MODIFIED="1695135343886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chamadainteligente" />
   </component>
 </project>
