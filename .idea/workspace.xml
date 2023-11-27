@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b011b46-d26b-407a-adbe-de2cfd0eb477" name="Changes" comment="">
+    <list default="true" id="0b011b46-d26b-407a-adbe-de2cfd0eb477" name="Changes" comment="Adicionada versão com modelo de dados pronto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
@@ -213,7 +213,7 @@
       <workItem from="1699379022281" duration="4314000" />
       <workItem from="1700654321167" duration="641000" />
       <workItem from="1700949596787" duration="4027000" />
-      <workItem from="1701044410751" duration="3697000" />
+      <workItem from="1701044410751" duration="3704000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada versão com modelo de dados pronto">
       <created>1695123692011</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695123692012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionada versão com modelo de dados pronto">
+      <created>1701053700508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701053700508</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
