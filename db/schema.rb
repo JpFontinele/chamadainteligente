@@ -10,19 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_26_105217) do
   create_table "attendances", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.datetime "start_time"
     t.datetime "end_time"
     t.bigint "course_id"
+    t.string "classroom", limit: 10
+    t.float "localizationx"
+    t.float "localizationy"
     t.index ["course_id"], name: "fk_rails_2fe8e02b1e"
   end
 
   create_table "courses", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "semester", limit: 5
-    t.string "code", limit: 2
+    t.string "course_id", limit: 2
     t.string "teacher_id", limit: 11
-    t.integer "classroom"
     t.string "subject_id", limit: 20
     t.index ["subject_id"], name: "fk_rails_57d52eb461"
     t.index ["teacher_id"], name: "fk_rails_a68eff6aff"
@@ -46,6 +48,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
 
   create_table "students", id: { type: :string, limit: 11 }, charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", limit: 30
+    t.string "password", limit: 20
   end
 
   create_table "subjects", id: { type: :string, limit: 20 }, charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
@@ -54,6 +57,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_112501) do
 
   create_table "teachers", id: { type: :string, limit: 11 }, charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name", limit: 30
+    t.string "password", limit: 20
   end
 
   add_foreign_key "attendances", "courses"
