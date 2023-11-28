@@ -1,5 +1,10 @@
 class StudentAttendanceController < ApplicationController
 
+  def index
+    sa = StudentAttendance.where(attendance_id: params[:id])
+    render json: sa
+  end
+
 
   def create
     sa = StudentAttendance.new(student_attendance_params)

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b011b46-d26b-407a-adbe-de2cfd0eb477" name="Changes" comment="Adicionada versão com modelo de dados pronto">
-      <change afterPath="$PROJECT_DIR$/app/controllers/teacher_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/attendance_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/attendance_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/courses_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/student_attendance_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/student_attendance_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/student_courses_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/student_courses_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,7 @@
       <workItem from="1701044410751" duration="4098000" />
       <workItem from="1701089081891" duration="2283000" />
       <workItem from="1701092110399" duration="1989000" />
-      <workItem from="1701110636415" duration="12725000" />
+      <workItem from="1701110636415" duration="17751000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada versão com modelo de dados pronto">
       <created>1695123692011</created>
@@ -241,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701053712701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionada versão com modelo de dados pronto">
+      <created>1701138423399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701138423399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +267,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adicionada versão com modelo de dados pronto" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chamadainteligente@chamadainteligente.rcov" NAME="chamadainteligente Coverage Results" MODIFIED="1701138145173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chamadainteligente" />
+    <SUITE FILE_PATH="coverage/chamadainteligente@chamadainteligente.rcov" NAME="chamadainteligente Coverage Results" MODIFIED="1701144514222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chamadainteligente" />
   </component>
 </project>
