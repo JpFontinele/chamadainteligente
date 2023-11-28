@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_26_105217) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_27_133252) do
   create_table "attendances", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.datetime "start_time"
     t.datetime "end_time"
@@ -31,10 +31,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_26_105217) do
   end
 
   create_table "student_attendances", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.datetime "start_time"
-    t.datetime "end_time"
     t.string "student_id", limit: 11
     t.bigint "attendance_id"
+    t.string "status", limit: 1
+    t.string "comment"
     t.index ["attendance_id"], name: "fk_rails_e40214a848"
     t.index ["student_id"], name: "fk_rails_f1607dbb2a"
   end

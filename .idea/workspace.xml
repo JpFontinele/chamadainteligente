@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b011b46-d26b-407a-adbe-de2cfd0eb477" name="Changes" comment="Adicionada versão com modelo de dados pronto">
+      <change afterPath="$PROJECT_DIR$/app/controllers/teacher_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/subjects_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/attendance_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/attendance_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/courses_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/courses_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
@@ -63,7 +65,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
     &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyModuleStructureConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -213,7 +215,10 @@
       <workItem from="1699379022281" duration="4314000" />
       <workItem from="1700654321167" duration="641000" />
       <workItem from="1700949596787" duration="4027000" />
-      <workItem from="1701044410751" duration="3704000" />
+      <workItem from="1701044410751" duration="4098000" />
+      <workItem from="1701089081891" duration="2283000" />
+      <workItem from="1701092110399" duration="1989000" />
+      <workItem from="1701110636415" duration="12725000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionada versão com modelo de dados pronto">
       <created>1695123692011</created>
@@ -229,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701053700508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adicionada versão com modelo de dados pronto">
+      <created>1701053712701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701053712701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,21 +262,7 @@
     <MESSAGE value="Adicionada versão com modelo de dados pronto" />
     <option name="LAST_COMMIT_MESSAGE" value="Adicionada versão com modelo de dados pronto" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/attendance_controller.rb</url>
-          <line>12</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chamadainteligente@chamadainteligente.rcov" NAME="chamadainteligente Coverage Results" MODIFIED="1701048397839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chamadainteligente" />
+    <SUITE FILE_PATH="coverage/chamadainteligente@chamadainteligente.rcov" NAME="chamadainteligente Coverage Results" MODIFIED="1701138145173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="chamadainteligente" />
   </component>
 </project>
